@@ -1,0 +1,1975 @@
+fileFormatVersion: 2
+guid: ad4be00a50e73494dbe8b72670b6863a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 192
+  spriteBorder: {x: 64, y: 64, z: 64, w: 64}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mapPack_tilesheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 577
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88e0c5bea36f164fb3bb5cc9d6b8c14
+      internalID: 852304510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b554f0dccb89c04b8e8d99420a3b384
+      internalID: 1146059644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_2
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 577
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae96f11bfa462844097054bfab321183
+      internalID: 170949791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_3
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1939b3c75447847ad95e733fc7faea
+      internalID: -1732389670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_4
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 577
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e9d10f06e800f438deeca559cb4b7f
+      internalID: 792179116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_5
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff3e7dd4c2651145a4a99af4254c6f4
+      internalID: 479761873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_6
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 590
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bff9daff17a4cf4cbaefe8b4b760a90
+      internalID: -115580244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_7
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 583
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ca4b6c655c1144fa6475eed00ed217
+      internalID: 615765705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_8
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 593
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e6593ad25904b4f98cc9ec653b919c
+      internalID: 1669527245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_9
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 580
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10df5ee0a588d3488b29d4920ece62a
+      internalID: 200684477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_10
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 583
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee39a624a62ed04e81b7d66fdb2499a
+      internalID: -1824108895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_11
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 580
+        width: 19
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70188ff083e885c48a607c4305e8668c
+      internalID: -638822349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 513
+        width: 186
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea4b8fcb0c3def428727681fa6f297e
+      internalID: 623755932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_13
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 521
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83c3e1d5f41d854fa16f04aa34d5787
+      internalID: 210952295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_14
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 520
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c136a597a28e1f14193363d96c98f1f1
+      internalID: -2106421035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_15
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 513
+        width: 186
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b42fb1708cdc34b88f2021ac512ed6
+      internalID: 2101514744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_16
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 526
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f2a03b2d58f654389eb8eba2e18d76
+      internalID: 1491748146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_17
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 516
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b19dc263534044c8a623297e383cac
+      internalID: 1920307033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_18
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 513
+        width: 186
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbed91a30441d14e926fe0f16ca68ca
+      internalID: -1086563171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_19
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 518
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3d2b49413eabf4ab9d832ed44bb6dc
+      internalID: 1182162362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_20
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 526
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbce2d7e1e39294d90446e5796fe8db
+      internalID: 1152877044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 321
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc45863978fe727498bb83a7bb659c6c
+      internalID: -1411040990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb9d1a11fcc5f04f801e033d83e0fd6
+      internalID: -975426299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_23
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 321
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e4b360359a88b46a6096e46a4f1cc7
+      internalID: -1047848978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_24
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b46f636cb577c4cb915e6077666c78
+      internalID: -117000197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_25
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 321
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec1740aad16a7c4e93c3d4f9f270b01
+      internalID: -2095560413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_26
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5753db046041a774f9d381c4e4d62648
+      internalID: 120110922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_27
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 331
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcbdc5da4bc8b34aab9da1b76326c5b
+      internalID: -708666265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 330
+        width: 63
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cffce1488e3ae24c9d85d4e04efca3c
+      internalID: -1585261439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_29
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 323
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfc8951ce765544498846c2f686e6ea
+      internalID: 1026681503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_30
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 327
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2457fd34e74a834cbab325f091fb95d
+      internalID: 1571106458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_31
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 334
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b61f63cecfa1a74e8d5219892c7cbe6
+      internalID: 1967848102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_32
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 334
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f14451924ed6747bd4d617e5ad6df1
+      internalID: -2030970484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_33
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 257
+        width: 186
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3dfe55885471d842b87d33919d6daaa
+      internalID: -763918812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_34
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 260
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b26e1975f99299479406e91a65d45e9
+      internalID: -2071216386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_35
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 260
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a7dc084a265b846a7dd79cb8ac8640
+      internalID: 1947039432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_36
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 257
+        width: 186
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264dab8e8f365e04086ebd5909b59639
+      internalID: 764664898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_37
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 263
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac666e0473d6cef42978ce1b1009f475
+      internalID: -1210007546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_38
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 259
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67ea5c5088348447ba8239736b95b7e
+      internalID: 777663955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_39
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 257
+        width: 186
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb26a73a65f0e4418be0fef6cc33677
+      internalID: -239420462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_40
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 267
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76ee116c2a30a243a1fbf40c0252754
+      internalID: -1093174931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_41
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 260
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a8f8704b51b1e4296c2706f575907a
+      internalID: 1111423175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_42
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 149
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0858fdeea78d5c94cb5de2b12b2d3f7a
+      internalID: -145691132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_43
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 149
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68387c13b39f594fbdfcff916dda5f8
+      internalID: 1978111368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 149
+        width: 64
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32927fa36bbda541839d5568b587685
+      internalID: 144900837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_45
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 0
+        width: 98
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0e305f40bf2ab4293fa7f113df0bec
+      internalID: 989582620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_46
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557f6289987ad9946872122a659c5946
+      internalID: 74298032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_47
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 149
+        width: 22
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7766c3c7d13af4e4f972fe059a737c1d
+      internalID: -1056882652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_48
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 213
+        width: 43
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98c87f3f1ef7324dab86864e6eced20
+      internalID: 32608231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_49
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 202
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fddc15e98fbf34a8763c7121d6df2d
+      internalID: 1714909321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_50
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 202
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8231b93ffa81b34d9088614250dfb5e
+      internalID: 591585691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_51
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 202
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624a2bef5ef923749ba70c2312337432
+      internalID: 591080735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_52
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 202
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1b3e0bcf2c335439afb3112d26fe8f
+      internalID: -805499947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_53
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 202
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ffceb7bccfb284ba008ee39cc5a94f
+      internalID: -521047218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_54
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 197
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb219b5c32321b24291190581296a809
+      internalID: 1578709148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_55
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 197
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6d259bb1c8d2b45975fa9edb8a2410
+      internalID: -67827307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_56
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 138
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df19e29a947961b42a1a2859fdb68335
+      internalID: 25852949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_57
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 149
+        width: 43
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2d711c9bb129e4fb24dbc77b154bc4
+      internalID: 1080933944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_58
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 138
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d50211943c08e34793d8bfca0bc1b91
+      internalID: -1344842899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_59
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 138
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a2747c05c3d334eb34f91bb695fa00
+      internalID: 928942265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_60
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 138
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42e4c4582876dd468b86d9ea115adf0
+      internalID: 1784450319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_61
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 138
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b56de58b05895b49bbe08202c2094ea
+      internalID: 404477709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_62
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 138
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439503cda8fe584429253ec9143988b5
+      internalID: -1978331723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_63
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 133
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4621204cc66046648943a5a23864887f
+      internalID: 421941507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_64
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 133
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b48a60fec0c0b4eaf3a6dcc3398805
+      internalID: 293544885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_65
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 17
+        width: 94
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19204743770301e4897beaf39888f62e
+      internalID: 2107029371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_66
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 15
+        width: 98
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7450194ba99c84a8bdaa5ca973de5e
+      internalID: 1970848383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_67
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 15
+        width: 64
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ab794647219db468ad97f2c64a011e
+      internalID: -1262792753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_68
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2fd0ba79c31394eba12e763b8a78ba
+      internalID: 1188948053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_69
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 15
+        width: 34
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781a56af5f5ca9e4795c62473f1239df
+      internalID: -716883906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_70
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 79
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6757df25543844e9312dc53d5ddd6b
+      internalID: 264326723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_71
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 74
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21dfca7fcd5c0cc4da73406aeb06f378
+      internalID: 2004826313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_72
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 74
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a399b9a6c65ca7444b6382315cfd4e80
+      internalID: -1616047665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_73
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 74
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8186deab8bd363243951eb49e4eab8be
+      internalID: -1308153287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_74
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 74
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce40e0741c64844c9d8e1718bb4c655
+      internalID: -611089121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_75
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 74
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98decb3a5d6a79346a19140122431ac4
+      internalID: 1208420844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_76
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab41981fd129c9142b7c404e4c1e4027
+      internalID: -1571731431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_77
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 15
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0759be53f7428941b3a2a97f9abcf37
+      internalID: -693037754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_78
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 15
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf56f134be10c74da01be5c0bf0f34e
+      internalID: -490487873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_79
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 10
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dda701aa1f694c4baaa36c902e45202
+      internalID: -19022275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_80
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 10
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573f9997ba1ec334ab7cd5bd36e133d9
+      internalID: -1450905877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_81
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 10
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4229708b4e79a5b468654ecfc1a8bc7f
+      internalID: -414594718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_82
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 10
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d5382a32d0720439102bac46682394
+      internalID: -532771202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapPack_tilesheet_83
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 10
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9becbd1f5b850d447ba6843d41d8427d
+      internalID: -1622900241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      mapPack_tilesheet_0: 852304510
+      mapPack_tilesheet_1: 1146059644
+      mapPack_tilesheet_10: -1824108895
+      mapPack_tilesheet_11: -638822349
+      mapPack_tilesheet_12: 623755932
+      mapPack_tilesheet_13: 210952295
+      mapPack_tilesheet_14: -2106421035
+      mapPack_tilesheet_15: 2101514744
+      mapPack_tilesheet_16: 1491748146
+      mapPack_tilesheet_17: 1920307033
+      mapPack_tilesheet_18: -1086563171
+      mapPack_tilesheet_19: 1182162362
+      mapPack_tilesheet_2: 170949791
+      mapPack_tilesheet_20: 1152877044
+      mapPack_tilesheet_21: -1411040990
+      mapPack_tilesheet_22: -975426299
+      mapPack_tilesheet_23: -1047848978
+      mapPack_tilesheet_24: -117000197
+      mapPack_tilesheet_25: -2095560413
+      mapPack_tilesheet_26: 120110922
+      mapPack_tilesheet_27: -708666265
+      mapPack_tilesheet_28: -1585261439
+      mapPack_tilesheet_29: 1026681503
+      mapPack_tilesheet_3: -1732389670
+      mapPack_tilesheet_30: 1571106458
+      mapPack_tilesheet_31: 1967848102
+      mapPack_tilesheet_32: -2030970484
+      mapPack_tilesheet_33: -763918812
+      mapPack_tilesheet_34: -2071216386
+      mapPack_tilesheet_35: 1947039432
+      mapPack_tilesheet_36: 764664898
+      mapPack_tilesheet_37: -1210007546
+      mapPack_tilesheet_38: 777663955
+      mapPack_tilesheet_39: -239420462
+      mapPack_tilesheet_4: 792179116
+      mapPack_tilesheet_40: -1093174931
+      mapPack_tilesheet_41: 1111423175
+      mapPack_tilesheet_42: -145691132
+      mapPack_tilesheet_43: 1978111368
+      mapPack_tilesheet_44: 144900837
+      mapPack_tilesheet_45: 989582620
+      mapPack_tilesheet_46: 74298032
+      mapPack_tilesheet_47: -1056882652
+      mapPack_tilesheet_48: 32608231
+      mapPack_tilesheet_49: 1714909321
+      mapPack_tilesheet_5: 479761873
+      mapPack_tilesheet_50: 591585691
+      mapPack_tilesheet_51: 591080735
+      mapPack_tilesheet_52: -805499947
+      mapPack_tilesheet_53: -521047218
+      mapPack_tilesheet_54: 1578709148
+      mapPack_tilesheet_55: -67827307
+      mapPack_tilesheet_56: 25852949
+      mapPack_tilesheet_57: 1080933944
+      mapPack_tilesheet_58: -1344842899
+      mapPack_tilesheet_59: 928942265
+      mapPack_tilesheet_6: -115580244
+      mapPack_tilesheet_60: 1784450319
+      mapPack_tilesheet_61: 404477709
+      mapPack_tilesheet_62: -1978331723
+      mapPack_tilesheet_63: 421941507
+      mapPack_tilesheet_64: 293544885
+      mapPack_tilesheet_65: 2107029371
+      mapPack_tilesheet_66: 1970848383
+      mapPack_tilesheet_67: -1262792753
+      mapPack_tilesheet_68: 1188948053
+      mapPack_tilesheet_69: -716883906
+      mapPack_tilesheet_7: 615765705
+      mapPack_tilesheet_70: 264326723
+      mapPack_tilesheet_71: 2004826313
+      mapPack_tilesheet_72: -1616047665
+      mapPack_tilesheet_73: -1308153287
+      mapPack_tilesheet_74: -611089121
+      mapPack_tilesheet_75: 1208420844
+      mapPack_tilesheet_76: -1571731431
+      mapPack_tilesheet_77: -693037754
+      mapPack_tilesheet_78: -490487873
+      mapPack_tilesheet_79: -19022275
+      mapPack_tilesheet_8: 1669527245
+      mapPack_tilesheet_80: -1450905877
+      mapPack_tilesheet_81: -414594718
+      mapPack_tilesheet_82: -532771202
+      mapPack_tilesheet_83: -1622900241
+      mapPack_tilesheet_9: 200684477
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
