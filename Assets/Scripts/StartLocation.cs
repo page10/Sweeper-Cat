@@ -5,4 +5,8 @@ using UnityEngine;
 public class StartLocation : MonoBehaviour
 {
         public MapPosition grid;
+        public StartLocation(Vector2Int pos)
+        {
+            grid.pos = pos;
+        }
 }
