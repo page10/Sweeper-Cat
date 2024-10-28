@@ -55,22 +55,18 @@ public class MapEditor : MonoBehaviour
                 else if (_catching.GetComponent<Collectables>())
                 {
                     Collectables c = _catching.GetComponent<Collectables>();
-                    // todo put the collectable on the map
                     PutCollectableAt(_catching.pos.transform.position, c.collectableName);
                 }
-                // else if (_catching.GetComponent<StartLocation>())
-                // {
-                //     if (_start)
-                //     {
-                //         Destroy(_start.gameObject);
-                //         _start = null;
-                //     }
-                //     StartLocation sl = _catching.GetComponent<StartLocation>();
-                //     // todo put the start location on the map
-                //
-                //     sl.transform.SetParent(itemLayer);
-                //     _start = sl;
-                // }
+                else if (_catching.GetComponent<StartLocation>())
+                {
+                    if (_start)
+                    {
+                        Destroy(_start.gameObject);
+                        _start = null;
+                    }
+                    // todo put the start location on the map
+                    PutStartLocationAt(_catching.pos.transform.position);
+                }
             }
         }
         else if (_mouseDown && Input.GetMouseButtonUp(0))
@@ -224,9 +220,9 @@ public class MapEditor : MonoBehaviour
         _collectables.Add(c);
     }
     
-    private void PutStartLocationAt(Vector3 g, string startLocationName = "StartLocation") => PutStartLocationAt((int)g.x, (int)g.y, startLocationName);
-    private void PutStartLocationAt(Vector2Int g, string startLocationName = "StartLocation") => PutStartLocationAt(g.x, g.y, startLocationName);
-    private void PutStartLocationAt(int x, int y, string startLocationName = "StartLocation")
+    private void PutStartLocationAt(Vector3 g, string startLocationName = "StartPosition") => PutStartLocationAt((int)g.x, (int)g.y, startLocationName);
+    private void PutStartLocationAt(Vector2Int g, string startLocationName = "StartPosition") => PutStartLocationAt(g.x, g.y, startLocationName);
+    private void PutStartLocationAt(int x, int y, string startLocationName = "StartPosition")
     {
         // if the position is a wall we can't put the start location on the map
         if (x < 0 || x >= _mapSize.x || y < 0 || y >= _mapSize.y) return;
