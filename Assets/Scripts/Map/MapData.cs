@@ -9,8 +9,8 @@ using UnityEngine.Serialization;
     public string levelName;
     public Vector2Int mapSize;
     public List<GridData> grids;
-    [FormerlySerializedAs("pickups")] public List<Collectables> collectables;  // those dots in pac man
-    public StartLocation startLocation;
+    [FormerlySerializedAs("pickups")] public List<Vector2Int> collectables;  // those dots in pac man
+    public Vector2Int startLocation;
 }
 
 [Serializable]

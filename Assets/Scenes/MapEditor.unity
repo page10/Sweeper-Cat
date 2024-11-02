@@ -1031,6 +1031,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TerrainPatternFloor
       objectReference: {fileID: 0}
+    - target: {fileID: 411955408794446067, guid: 73a41778eb591924db08df8942b6671c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2052966826631740216, guid: 73a41778eb591924db08df8942b6671c, type: 3}
       propertyPath: m_Pivot.x
       value: 0

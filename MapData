@@ -1,8 +1,8 @@
 {
     "levelName": "",
     "mapSize": {
-        "x": 10,
-        "y": 8
+        "x": 6,
+        "y": 6
     },
     "grids": [
         {
@@ -49,20 +49,6 @@
         },
         {
             "position": {
-                "x": 0,
-                "y": 6
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 0,
-                "y": 7
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
                 "x": 1,
                 "y": 0
             },
@@ -105,20 +91,6 @@
         },
         {
             "position": {
-                "x": 1,
-                "y": 6
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 1,
-                "y": 7
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
                 "x": 2,
                 "y": 0
             },
@@ -135,13 +107,6 @@
             "position": {
                 "x": 2,
                 "y": 2
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 2,
-                "y": 3
             },
             "gridName": "Floor"
         },
@@ -161,423 +126,144 @@
         },
         {
             "position": {
+                "x": 3,
+                "y": 0
+            },
+            "gridName": "Floor"
+        },
+        {
+            "position": {
+                "x": 3,
+                "y": 1
+            },
+            "gridName": "Floor"
+        },
+        {
+            "position": {
+                "x": 3,
+                "y": 2
+            },
+            "gridName": "Floor"
+        },
+        {
+            "position": {
+                "x": 3,
+                "y": 4
+            },
+            "gridName": "Floor"
+        },
+        {
+            "position": {
+                "x": 3,
+                "y": 5
+            },
+            "gridName": "Floor"
+        },
+        {
+            "position": {
+                "x": 4,
+                "y": 0
+            },
+            "gridName": "Floor"
+        },
+        {
+            "position": {
+                "x": 4,
+                "y": 1
+            },
+            "gridName": "Floor"
+        },
+        {
+            "position": {
+                "x": 4,
+                "y": 2
+            },
+            "gridName": "Floor"
+        },
+        {
+            "position": {
+                "x": 4,
+                "y": 3
+            },
+            "gridName": "Floor"
+        },
+        {
+            "position": {
+                "x": 4,
+                "y": 4
+            },
+            "gridName": "Floor"
+        },
+        {
+            "position": {
+                "x": 4,
+                "y": 5
+            },
+            "gridName": "Floor"
+        },
+        {
+            "position": {
+                "x": 5,
+                "y": 0
+            },
+            "gridName": "Floor"
+        },
+        {
+            "position": {
+                "x": 5,
+                "y": 1
+            },
+            "gridName": "Floor"
+        },
+        {
+            "position": {
+                "x": 5,
+                "y": 2
+            },
+            "gridName": "Floor"
+        },
+        {
+            "position": {
+                "x": 5,
+                "y": 3
+            },
+            "gridName": "Floor"
+        },
+        {
+            "position": {
+                "x": 5,
+                "y": 4
+            },
+            "gridName": "Floor"
+        },
+        {
+            "position": {
+                "x": 5,
+                "y": 5
+            },
+            "gridName": "Floor"
+        },
+        {
+            "position": {
                 "x": 2,
-                "y": 6
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 2,
-                "y": 7
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 3,
-                "y": 0
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 3,
-                "y": 1
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 3,
-                "y": 2
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 3,
                 "y": 3
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 3,
-                "y": 5
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 3,
-                "y": 6
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 3,
-                "y": 7
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 4,
-                "y": 0
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 4,
-                "y": 1
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 4,
-                "y": 2
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 4,
-                "y": 3
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 4,
-                "y": 5
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 4,
-                "y": 6
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 4,
-                "y": 7
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 5,
-                "y": 0
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 5,
-                "y": 1
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 5,
-                "y": 2
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 5,
-                "y": 3
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 5,
-                "y": 5
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 5,
-                "y": 6
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 5,
-                "y": 7
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 6,
-                "y": 0
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 6,
-                "y": 1
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 6,
-                "y": 2
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 6,
-                "y": 3
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 6,
-                "y": 4
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 6,
-                "y": 5
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 6,
-                "y": 6
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 6,
-                "y": 7
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 7,
-                "y": 0
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 7,
-                "y": 1
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 7,
-                "y": 2
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 7,
-                "y": 3
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 7,
-                "y": 4
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 7,
-                "y": 5
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 7,
-                "y": 6
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 7,
-                "y": 7
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 8,
-                "y": 0
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 8,
-                "y": 1
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 8,
-                "y": 2
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 8,
-                "y": 3
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 8,
-                "y": 4
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 8,
-                "y": 5
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 8,
-                "y": 6
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 8,
-                "y": 7
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 9,
-                "y": 0
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 9,
-                "y": 1
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 9,
-                "y": 2
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 9,
-                "y": 3
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 9,
-                "y": 4
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 9,
-                "y": 5
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 9,
-                "y": 6
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 9,
-                "y": 7
-            },
-            "gridName": "Floor"
-        },
-        {
-            "position": {
-                "x": 3,
-                "y": 4
             },
             "gridName": "Wall"
         },
         {
             "position": {
-                "x": 4,
-                "y": 4
-            },
-            "gridName": "Wall"
-        },
-        {
-            "position": {
-                "x": 5,
-                "y": 4
+                "x": 3,
+                "y": 3
             },
             "gridName": "Wall"
         }
     ],
     "collectables": [
         {
-            "instanceID": -50840
-        },
-        {
-            "instanceID": -50958
-        },
-        {
-            "instanceID": -51076
+            "instanceID": -10872
         }
     ],
     "startLocation": {
-        "instanceID": -51676
+        "instanceID": -10892
     }
 }

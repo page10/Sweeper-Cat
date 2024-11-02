@@ -281,8 +281,8 @@ public class MapEditor : MonoBehaviour
         {
             mapSize = _mapSize,
             grids = new List<GridData>(),
-            collectables = new List<Collectables>(),
-            startLocation = _start ? _start : new StartLocation(Vector2Int.zero)  // what is this warning?
+            collectables = new List<Vector2Int>(),
+            startLocation = Vector2Int.zero  
         };
 
         foreach (MapGrid grid in _grids)
@@ -296,8 +296,10 @@ public class MapEditor : MonoBehaviour
 
         foreach (Collectables collectable in _collectables)
         {
-            mapData.collectables.Add(collectable);
+            mapData.collectables.Add(collectable.grid.pos);
         }
+
+        mapData.startLocation = _start.grid.pos;  // todo only write the pos of start location. Do not save the item itself
 
         return mapData;
     }
