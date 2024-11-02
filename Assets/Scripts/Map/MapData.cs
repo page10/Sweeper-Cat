@@ -20,3 +20,7 @@ public class GridData
     public string gridName;
 }
 
+public class AllMapData
+{
+    public List<MapData> allMapData;
+}
