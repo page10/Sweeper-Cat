@@ -309,9 +309,9 @@ public class MapEditor : MonoBehaviour
     
     public void SaveMapData(string filePath = "MapData.json")
     {
-        MapData mapData = GatherMapData();
-        string json = JsonUtility.ToJson(mapData, true);
-        File.WriteAllText(filePath, json);
+        // MapData mapData = GatherMapData();
+        // string json = JsonUtility.ToJson(mapData, true);
+        // File.WriteAllText(filePath, json);
         
         // todo why we cannot read the existing data
         // List<MapData> mapDataList = new List<MapData>();
@@ -330,5 +330,22 @@ public class MapEditor : MonoBehaviour
         // // Serialize the updated list back to the file
         // string json = JsonUtility.ToJson(mapDataList, true);
         // File.WriteAllText(filePath, json);
+        
+        List<MapData> allMapData = new List<MapData>();
+        
+        // Read existing data if the file exists
+        if (File.Exists(filePath))
+        {
+            string existingJson = File.ReadAllText(filePath);
+            allMapData = JsonUtility.FromJson<AllMapData>(existingJson).allMapData;
+        }
+        
+        // Add new map data
+        MapData mapData = GatherMapData();
+        allMapData.Add(mapData);
+        
+        // Serialize the updated list back to the file
+        string json = JsonUtility.ToJson(new AllMapData{allMapData = allMapData}, true);
+        File.WriteAllText(filePath, json);
     }
 }
