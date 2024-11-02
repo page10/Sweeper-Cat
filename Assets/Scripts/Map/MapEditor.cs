@@ -299,7 +299,7 @@ public class MapEditor : MonoBehaviour
             mapData.collectables.Add(collectable.grid.pos);
         }
 
-        mapData.startLocation = _start.grid.pos;  // todo only write the pos of start location. Do not save the item itself
+        mapData.startLocation = _start? _start.grid.pos : Vector2Int.zero;  
 
         return mapData;
     }
