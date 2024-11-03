@@ -23,10 +23,10 @@ public class FrameAnim : MonoBehaviour
 
     private void Update()
     {
-        if (updateByMono && _playing && Current.Valid)
-        {
-            DoUpdate(Time.deltaTime);
-        }
+        // if (updateByMono && _playing && Current.Valid)  // used for test only
+        // {
+        //     DoUpdate(Time.deltaTime);
+        // }
     }
 
     /// <summary>

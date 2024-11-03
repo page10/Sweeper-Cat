@@ -90,6 +90,31 @@ public class MapManager : MonoBehaviour
             Instantiate(collectableItemPrefab, new Vector3(pos.x, pos.y, 0), Quaternion.identity);
         return collectableGo;
     }
+    
+    public bool IsInMap(Vector2Int pos)
+    {
+        return pos.x >= 0 && pos.x < width && pos.y >= 0 && pos.y < height;
+    }
+    
+    public bool CheckPickUpCollectable(Vector2 characterPos, float radius = 0.1f)
+    {
+        foreach (var smallDot in smallDots)
+        {
+            if (Vector2.Distance(characterPos, smallDot.transform.position) < radius)
+            {
+                smallDots.Remove(smallDot);
+                Destroy(smallDot.gameObject);
+                return true;
+            }
+        }
+
+        return false;
+    }
+    
+    public int GetRemainingCollectableCount()
+    {
+        return smallDots.Count;
+    }
 
 
 }
