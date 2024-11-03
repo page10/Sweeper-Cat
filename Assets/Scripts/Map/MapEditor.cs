@@ -313,24 +313,6 @@ public class MapEditor : MonoBehaviour
         // string json = JsonUtility.ToJson(mapData, true);
         // File.WriteAllText(filePath, json);
         
-        // todo why we cannot read the existing data
-        // List<MapData> mapDataList = new List<MapData>();
-        //
-        // // Read existing data if the file exists
-        // if (File.Exists(filePath))
-        // {
-        //     string existingJson = File.ReadAllText(filePath);
-        //     mapDataList = JsonUtility.FromJson<List<MapData>>(existingJson);
-        // }
-        //
-        // // Add new map data
-        // MapData mapData = GatherMapData();
-        // mapDataList.Add(mapData);
-        //
-        // // Serialize the updated list back to the file
-        // string json = JsonUtility.ToJson(mapDataList, true);
-        // File.WriteAllText(filePath, json);
-        
         List<MapData> allMapData = new List<MapData>();
         
         // Read existing data if the file exists

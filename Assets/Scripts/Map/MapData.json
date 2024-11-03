@@ -1,72 +1,16 @@
 {
     "allMapData": [
         {
-            "levelName": "test1",
+            "levelName": "level0",
             "mapSize": {
                 "x": 10,
-                "y": 8
+                "y": 9
             },
             "grids": [
                 {
                     "position": {
                         "x": 0,
-                        "y": 0
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 0,
-                        "y": 1
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 0,
-                        "y": 2
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 0,
-                        "y": 3
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 0,
                         "y": 4
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 0,
-                        "y": 5
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 0,
-                        "y": 6
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 0,
-                        "y": 7
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 1,
-                        "y": 0
                     },
                     "gridName": "Floor"
                 },
@@ -122,21 +66,7 @@
                 {
                     "position": {
                         "x": 2,
-                        "y": 0
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 2,
                         "y": 1
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 2,
-                        "y": 2
                     },
                     "gridName": "Floor"
                 },
@@ -157,28 +87,7 @@
                 {
                     "position": {
                         "x": 2,
-                        "y": 5
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 2,
-                        "y": 6
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 2,
                         "y": 7
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 3,
-                        "y": 0
                     },
                     "gridName": "Floor"
                 },
@@ -206,14 +115,14 @@
                 {
                     "position": {
                         "x": 3,
-                        "y": 5
+                        "y": 4
                     },
                     "gridName": "Floor"
                 },
                 {
                     "position": {
                         "x": 3,
-                        "y": 6
+                        "y": 5
                     },
                     "gridName": "Floor"
                 },
@@ -248,13 +157,6 @@
                 {
                     "position": {
                         "x": 4,
-                        "y": 3
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 4,
                         "y": 5
                     },
                     "gridName": "Floor"
@@ -275,6 +177,13 @@
                 },
                 {
                     "position": {
+                        "x": 4,
+                        "y": 8
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
                         "x": 5,
                         "y": 0
                     },
@@ -297,77 +206,63 @@
                 {
                     "position": {
                         "x": 5,
-                        "y": 3
+                        "y": 5
                     },
                     "gridName": "Floor"
                 },
                 {
                     "position": {
                         "x": 5,
+                        "y": 6
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 5,
+                        "y": 7
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 5,
+                        "y": 8
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 6,
+                        "y": 1
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 6,
+                        "y": 2
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 6,
+                        "y": 3
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 6,
                         "y": 4
                     },
                     "gridName": "Floor"
                 },
                 {
                     "position": {
-                        "x": 5,
-                        "y": 5
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 5,
-                        "y": 6
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 5,
-                        "y": 7
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 6,
-                        "y": 0
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 6,
-                        "y": 1
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 6,
-                        "y": 2
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 6,
-                        "y": 3
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
                         "x": 6,
                         "y": 5
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 6,
-                        "y": 6
                     },
                     "gridName": "Floor"
                 },
@@ -381,21 +276,7 @@
                 {
                     "position": {
                         "x": 7,
-                        "y": 0
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 7,
                         "y": 1
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 7,
-                        "y": 2
                     },
                     "gridName": "Floor"
                 },
@@ -416,28 +297,7 @@
                 {
                     "position": {
                         "x": 7,
-                        "y": 5
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 7,
-                        "y": 6
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 7,
                         "y": 7
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 8,
-                        "y": 0
                     },
                     "gridName": "Floor"
                 },
@@ -493,63 +353,210 @@
                 {
                     "position": {
                         "x": 9,
-                        "y": 0
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 9,
-                        "y": 1
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 9,
-                        "y": 2
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 9,
-                        "y": 3
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 9,
                         "y": 4
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 9,
-                        "y": 5
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 9,
-                        "y": 6
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 9,
-                        "y": 7
                     },
                     "gridName": "Floor"
                 },
                 {
                     "position": {
                         "x": 3,
-                        "y": 4
+                        "y": 8
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 2,
+                        "y": 8
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 1,
+                        "y": 8
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 8
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 7
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 6
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 5
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 6,
+                        "y": 8
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 7,
+                        "y": 8
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 8,
+                        "y": 8
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 9,
+                        "y": 8
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 9,
+                        "y": 7
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 9,
+                        "y": 6
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 9,
+                        "y": 5
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 9,
+                        "y": 2
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 9,
+                        "y": 3
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 9,
+                        "y": 1
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 9,
+                        "y": 0
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 8,
+                        "y": 0
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 7,
+                        "y": 0
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 6,
+                        "y": 0
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 3
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 2
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 1
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 1,
+                        "y": 0
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 2,
+                        "y": 0
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 3,
+                        "y": 0
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 4,
+                        "y": 3
                     },
                     "gridName": "Wall"
                 },
@@ -562,8 +569,71 @@
                 },
                 {
                     "position": {
-                        "x": 6,
+                        "x": 5,
                         "y": 4
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 5,
+                        "y": 3
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 3,
+                        "y": 6
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 2,
+                        "y": 6
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 2,
+                        "y": 5
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 6,
+                        "y": 6
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 7,
+                        "y": 6
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 7,
+                        "y": 5
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 2,
+                        "y": 2
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 7,
+                        "y": 2
                     },
                     "gridName": "Wall"
                 }
@@ -571,630 +641,151 @@
             "collectables": [
                 {
                     "x": 3,
-                    "y": 2
+                    "y": 7
                 },
                 {
-                    "x": 5,
-                    "y": 3
+                    "x": 2,
+                    "y": 7
                 },
                 {
-                    "x": 6,
-                    "y": 3
+                    "x": 1,
+                    "y": 7
                 },
                 {
-                    "x": 5,
-                    "y": 2
+                    "x": 1,
+                    "y": 6
                 },
                 {
-                    "x": 4,
-                    "y": 3
-                }
-            ],
-            "startLocation": {
-                "x": 2,
-                "y": 3
-            }
-        },
-        {
-            "levelName": "test2",
-            "mapSize": {
-                "x": 10,
-                "y": 8
-            },
-            "grids": [
-                {
-                    "position": {
-                        "x": 0,
-                        "y": 0
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 0,
-                        "y": 1
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 0,
-                        "y": 2
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 0,
-                        "y": 3
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 0,
-                        "y": 4
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 0,
-                        "y": 5
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 0,
-                        "y": 6
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 0,
-                        "y": 7
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 1,
-                        "y": 0
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 1,
-                        "y": 1
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 1,
-                        "y": 2
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 1,
-                        "y": 3
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 1,
-                        "y": 4
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 1,
-                        "y": 5
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 1,
-                        "y": 6
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 1,
-                        "y": 7
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 2,
-                        "y": 0
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 2,
-                        "y": 1
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 2,
-                        "y": 2
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 2,
-                        "y": 3
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 2,
-                        "y": 4
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 2,
-                        "y": 5
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 2,
-                        "y": 6
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 2,
-                        "y": 7
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 3,
-                        "y": 0
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 3,
-                        "y": 1
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 3,
-                        "y": 2
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 3,
-                        "y": 3
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 3,
-                        "y": 5
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 3,
-                        "y": 6
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 3,
-                        "y": 7
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 4,
-                        "y": 0
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 4,
-                        "y": 1
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 4,
-                        "y": 2
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 4,
-                        "y": 3
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 4,
-                        "y": 5
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 4,
-                        "y": 6
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 4,
-                        "y": 7
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 5,
-                        "y": 0
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 5,
-                        "y": 1
-                    },
-                    "gridName": "Floor"
+                    "x": 1,
+                    "y": 5
                 },
-                {
-                    "position": {
-                        "x": 5,
-                        "y": 2
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 5,
-                        "y": 3
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 5,
-                        "y": 4
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 5,
-                        "y": 5
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 5,
-                        "y": 6
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 5,
-                        "y": 7
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 6,
-                        "y": 0
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 6,
-                        "y": 1
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 6,
-                        "y": 2
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 6,
-                        "y": 3
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 6,
-                        "y": 5
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 6,
-                        "y": 6
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 6,
-                        "y": 7
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 7,
-                        "y": 0
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 7,
-                        "y": 1
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 7,
-                        "y": 2
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 7,
-                        "y": 3
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 7,
-                        "y": 4
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 7,
-                        "y": 5
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 7,
-                        "y": 6
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 7,
-                        "y": 7
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 8,
-                        "y": 0
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 8,
-                        "y": 1
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 8,
-                        "y": 2
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 8,
-                        "y": 3
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 8,
-                        "y": 4
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 8,
-                        "y": 5
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 8,
-                        "y": 6
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 8,
-                        "y": 7
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 9,
-                        "y": 0
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 9,
-                        "y": 1
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 9,
-                        "y": 2
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 9,
-                        "y": 3
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 9,
-                        "y": 4
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 9,
-                        "y": 5
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 9,
-                        "y": 6
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 9,
-                        "y": 7
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 3,
-                        "y": 4
-                    },
-                    "gridName": "Wall"
-                },
-                {
-                    "position": {
-                        "x": 4,
-                        "y": 4
-                    },
-                    "gridName": "Wall"
-                },
-                {
-                    "position": {
-                        "x": 6,
-                        "y": 4
-                    },
-                    "gridName": "Wall"
-                }
-            ],
-            "collectables": [
                 {
                     "x": 3,
+                    "y": 4
+                },
+                {
+                    "x": 2,
+                    "y": 4
+                },
+                {
+                    "x": 1,
+                    "y": 3
+                },
+                {
+                    "x": 3,
+                    "y": 3
+                },
+                {
+                    "x": 2,
+                    "y": 3
+                },
+                {
+                    "x": 1,
                     "y": 2
                 },
                 {
-                    "x": 5,
-                    "y": 3
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "x": 3,
+                    "y": 1
+                },
+                {
+                    "x": 6,
+                    "y": 4
                 },
                 {
                     "x": 6,
                     "y": 3
                 },
                 {
+                    "x": 4,
+                    "y": 5
+                },
+                {
+                    "x": 5,
+                    "y": 5
+                },
+                {
+                    "x": 4,
+                    "y": 2
+                },
+                {
                     "x": 5,
                     "y": 2
                 },
                 {
-                    "x": 4,
+                    "x": 7,
+                    "y": 1
+                },
+                {
+                    "x": 8,
+                    "y": 1
+                },
+                {
+                    "x": 8,
+                    "y": 2
+                },
+                {
+                    "x": 8,
                     "y": 3
+                },
+                {
+                    "x": 7,
+                    "y": 4
+                },
+                {
+                    "x": 7,
+                    "y": 3
+                },
+                {
+                    "x": 8,
+                    "y": 4
+                },
+                {
+                    "x": 8,
+                    "y": 6
+                },
+                {
+                    "x": 8,
+                    "y": 7
+                },
+                {
+                    "x": 7,
+                    "y": 7
+                },
+                {
+                    "x": 5,
+                    "y": 7
+                },
+                {
+                    "x": 4,
+                    "y": 7
+                },
+                {
+                    "x": 6,
+                    "y": 7
+                },
+                {
+                    "x": 8,
+                    "y": 5
                 }
             ],
             "startLocation": {
-                "x": 2,
-                "y": 3
+                "x": 0,
+                "y": 4
             }
         },
         {
-            "levelName": "test3",
+            "levelName": "level1",
             "mapSize": {
                 "x": 8,
-                "y": 6
+                "y": 8
             },
             "grids": [
                 {
@@ -1241,15 +832,22 @@
                 },
                 {
                     "position": {
-                        "x": 1,
-                        "y": 0
+                        "x": 0,
+                        "y": 6
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 7
                     },
                     "gridName": "Floor"
                 },
                 {
                     "position": {
                         "x": 1,
-                        "y": 2
+                        "y": 0
                     },
                     "gridName": "Floor"
                 },
@@ -1263,7 +861,7 @@
                 {
                     "position": {
                         "x": 1,
-                        "y": 5
+                        "y": 7
                     },
                     "gridName": "Floor"
                 },
@@ -1271,13 +869,6 @@
                     "position": {
                         "x": 2,
                         "y": 0
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 2,
-                        "y": 1
                     },
                     "gridName": "Floor"
                 },
@@ -1311,15 +902,15 @@
                 },
                 {
                     "position": {
-                        "x": 3,
-                        "y": 0
+                        "x": 2,
+                        "y": 7
                     },
                     "gridName": "Floor"
                 },
                 {
                     "position": {
                         "x": 3,
-                        "y": 1
+                        "y": 0
                     },
                     "gridName": "Floor"
                 },
@@ -1340,14 +931,14 @@
                 {
                     "position": {
                         "x": 3,
-                        "y": 4
+                        "y": 5
                     },
                     "gridName": "Floor"
                 },
                 {
                     "position": {
                         "x": 3,
-                        "y": 5
+                        "y": 7
                     },
                     "gridName": "Floor"
                 },
@@ -1355,13 +946,6 @@
                     "position": {
                         "x": 4,
                         "y": 0
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 4,
-                        "y": 1
                     },
                     "gridName": "Floor"
                 },
@@ -1382,14 +966,14 @@
                 {
                     "position": {
                         "x": 4,
-                        "y": 4
+                        "y": 5
                     },
                     "gridName": "Floor"
                 },
                 {
                     "position": {
                         "x": 4,
-                        "y": 5
+                        "y": 7
                     },
                     "gridName": "Floor"
                 },
@@ -1397,13 +981,6 @@
                     "position": {
                         "x": 5,
                         "y": 0
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 5,
-                        "y": 1
                     },
                     "gridName": "Floor"
                 },
@@ -1432,6 +1009,13 @@
                     "position": {
                         "x": 5,
                         "y": 5
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 5,
+                        "y": 7
                     },
                     "gridName": "Floor"
                 },
@@ -1445,13 +1029,6 @@
                 {
                     "position": {
                         "x": 6,
-                        "y": 2
-                    },
-                    "gridName": "Floor"
-                },
-                {
-                    "position": {
-                        "x": 6,
                         "y": 3
                     },
                     "gridName": "Floor"
@@ -1459,7 +1036,7 @@
                 {
                     "position": {
                         "x": 6,
-                        "y": 5
+                        "y": 7
                     },
                     "gridName": "Floor"
                 },
@@ -1507,8 +1084,71 @@
                 },
                 {
                     "position": {
+                        "x": 7,
+                        "y": 6
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 7,
+                        "y": 7
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 3,
+                        "y": 6
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 2,
+                        "y": 6
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 1,
+                        "y": 6
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 1,
+                        "y": 5
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
                         "x": 1,
                         "y": 4
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 5,
+                        "y": 6
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 6,
+                        "y": 6
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 6,
+                        "y": 5
                     },
                     "gridName": "Wall"
                 },
@@ -1521,7 +1161,49 @@
                 },
                 {
                     "position": {
+                        "x": 4,
+                        "y": 6
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
                         "x": 1,
+                        "y": 2
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 1,
+                        "y": 1
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 2,
+                        "y": 1
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 4,
+                        "y": 1
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 5,
+                        "y": 1
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 3,
                         "y": 1
                     },
                     "gridName": "Wall"
@@ -1530,14 +1212,131 @@
                     "position": {
                         "x": 6,
                         "y": 1
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 6,
+                        "y": 2
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 3,
+                        "y": 4
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 4,
+                        "y": 4
                     },
                     "gridName": "Wall"
                 }
             ],
             "collectables": [
                 {
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "x": 0,
+                    "y": 5
+                },
+                {
+                    "x": 0,
+                    "y": 4
+                },
+                {
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "x": 0,
+                    "y": 2
+                },
+                {
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "x": 3,
+                    "y": 0
+                },
+                {
+                    "x": 5,
+                    "y": 0
+                },
+                {
+                    "x": 6,
+                    "y": 0
+                },
+                {
+                    "x": 7,
+                    "y": 0
+                },
+                {
+                    "x": 7,
+                    "y": 2
+                },
+                {
+                    "x": 7,
+                    "y": 3
+                },
+                {
+                    "x": 7,
+                    "y": 4
+                },
+                {
+                    "x": 7,
+                    "y": 6
+                },
+                {
+                    "x": 7,
+                    "y": 7
+                },
+                {
+                    "x": 5,
+                    "y": 7
+                },
+                {
+                    "x": 3,
+                    "y": 7
+                },
+                {
+                    "x": 1,
+                    "y": 7
+                },
+                {
+                    "x": 0,
+                    "y": 7
+                },
+                {
+                    "x": 3,
+                    "y": 5
+                },
+                {
                     "x": 2,
                     "y": 3
+                },
+                {
+                    "x": 1,
+                    "y": 3
+                },
+                {
+                    "x": 4,
+                    "y": 2
                 },
                 {
                     "x": 5,
@@ -1545,16 +1344,1219 @@
                 },
                 {
                     "x": 5,
-                    "y": 2
+                    "y": 5
                 },
                 {
                     "x": 2,
+                    "y": 5
+                },
+                {
+                    "x": 3,
                     "y": 2
+                },
+                {
+                    "x": 4,
+                    "y": 3
                 }
             ],
             "startLocation": {
                 "x": 3,
                 "y": 3
+            }
+        },
+        {
+            "levelName": "Level3",
+            "mapSize": {
+                "x": 14,
+                "y": 10
+            },
+            "grids": [
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 5
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 1,
+                        "y": 1
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 1,
+                        "y": 2
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 1,
+                        "y": 3
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 1,
+                        "y": 4
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 1,
+                        "y": 5
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 1,
+                        "y": 6
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 1,
+                        "y": 7
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 1,
+                        "y": 8
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 2,
+                        "y": 1
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 2,
+                        "y": 2
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 2,
+                        "y": 7
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 2,
+                        "y": 8
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 3,
+                        "y": 1
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 3,
+                        "y": 2
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 3,
+                        "y": 3
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 3,
+                        "y": 4
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 3,
+                        "y": 5
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 3,
+                        "y": 6
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 3,
+                        "y": 7
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 3,
+                        "y": 8
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 4,
+                        "y": 1
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 4,
+                        "y": 2
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 4,
+                        "y": 3
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 4,
+                        "y": 4
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 4,
+                        "y": 5
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 4,
+                        "y": 6
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 4,
+                        "y": 7
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 4,
+                        "y": 8
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 5,
+                        "y": 0
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 5,
+                        "y": 1
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 5,
+                        "y": 3
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 5,
+                        "y": 4
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 5,
+                        "y": 5
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 5,
+                        "y": 6
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 5,
+                        "y": 8
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 5,
+                        "y": 9
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 6,
+                        "y": 0
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 6,
+                        "y": 1
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 6,
+                        "y": 3
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 6,
+                        "y": 6
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 6,
+                        "y": 8
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 6,
+                        "y": 9
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 7,
+                        "y": 0
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 7,
+                        "y": 1
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 7,
+                        "y": 3
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 7,
+                        "y": 6
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 7,
+                        "y": 8
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 7,
+                        "y": 9
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 8,
+                        "y": 0
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 8,
+                        "y": 1
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 8,
+                        "y": 3
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 8,
+                        "y": 4
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 8,
+                        "y": 5
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 8,
+                        "y": 6
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 8,
+                        "y": 8
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 8,
+                        "y": 9
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 9,
+                        "y": 1
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 9,
+                        "y": 2
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 9,
+                        "y": 3
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 9,
+                        "y": 4
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 9,
+                        "y": 5
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 9,
+                        "y": 6
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 9,
+                        "y": 7
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 9,
+                        "y": 8
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 10,
+                        "y": 1
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 10,
+                        "y": 2
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 10,
+                        "y": 3
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 10,
+                        "y": 4
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 10,
+                        "y": 5
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 10,
+                        "y": 6
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 10,
+                        "y": 7
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 10,
+                        "y": 8
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 11,
+                        "y": 1
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 11,
+                        "y": 2
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 11,
+                        "y": 7
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 11,
+                        "y": 8
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 12,
+                        "y": 1
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 12,
+                        "y": 2
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 12,
+                        "y": 3
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 12,
+                        "y": 4
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 12,
+                        "y": 5
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 12,
+                        "y": 6
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 12,
+                        "y": 7
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 12,
+                        "y": 8
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 13,
+                        "y": 5
+                    },
+                    "gridName": "Floor"
+                },
+                {
+                    "position": {
+                        "x": 4,
+                        "y": 9
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 3,
+                        "y": 9
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 2,
+                        "y": 9
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 1,
+                        "y": 9
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 9
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 8
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 7
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 6
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 9,
+                        "y": 9
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 10,
+                        "y": 9
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 11,
+                        "y": 9
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 12,
+                        "y": 9
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 13,
+                        "y": 9
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 13,
+                        "y": 8
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 13,
+                        "y": 7
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 13,
+                        "y": 6
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 13,
+                        "y": 4
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 13,
+                        "y": 3
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 13,
+                        "y": 2
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 13,
+                        "y": 1
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 13,
+                        "y": 0
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 12,
+                        "y": 0
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 11,
+                        "y": 0
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 10,
+                        "y": 0
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 9,
+                        "y": 0
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 4
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 3
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 2
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 1
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 1,
+                        "y": 0
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 2,
+                        "y": 0
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 3,
+                        "y": 0
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 4,
+                        "y": 0
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 7,
+                        "y": 4
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 6,
+                        "y": 4
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 6,
+                        "y": 5
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 7,
+                        "y": 5
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 2,
+                        "y": 6
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 2,
+                        "y": 5
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 2,
+                        "y": 4
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 2,
+                        "y": 3
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 11,
+                        "y": 6
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 11,
+                        "y": 5
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 11,
+                        "y": 4
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 11,
+                        "y": 3
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 5,
+                        "y": 2
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 6,
+                        "y": 2
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 7,
+                        "y": 2
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 8,
+                        "y": 2
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 5,
+                        "y": 7
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 6,
+                        "y": 7
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 7,
+                        "y": 7
+                    },
+                    "gridName": "Wall"
+                },
+                {
+                    "position": {
+                        "x": 8,
+                        "y": 7
+                    },
+                    "gridName": "Wall"
+                }
+            ],
+            "collectables": [
+                {
+                    "x": 5,
+                    "y": 9
+                },
+                {
+                    "x": 6,
+                    "y": 9
+                },
+                {
+                    "x": 7,
+                    "y": 9
+                },
+                {
+                    "x": 8,
+                    "y": 9
+                },
+                {
+                    "x": 8,
+                    "y": 8
+                },
+                {
+                    "x": 7,
+                    "y": 8
+                },
+                {
+                    "x": 5,
+                    "y": 8
+                },
+                {
+                    "x": 6,
+                    "y": 8
+                },
+                {
+                    "x": 4,
+                    "y": 8
+                },
+                {
+                    "x": 2,
+                    "y": 8
+                },
+                {
+                    "x": 1,
+                    "y": 8
+                },
+                {
+                    "x": 1,
+                    "y": 5
+                },
+                {
+                    "x": 1,
+                    "y": 4
+                },
+                {
+                    "x": 1,
+                    "y": 2
+                },
+                {
+                    "x": 2,
+                    "y": 2
+                },
+                {
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "x": 5,
+                    "y": 1
+                },
+                {
+                    "x": 5,
+                    "y": 0
+                },
+                {
+                    "x": 7,
+                    "y": 0
+                },
+                {
+                    "x": 8,
+                    "y": 0
+                },
+                {
+                    "x": 6,
+                    "y": 0
+                },
+                {
+                    "x": 12,
+                    "y": 1
+                },
+                {
+                    "x": 12,
+                    "y": 2
+                },
+                {
+                    "x": 12,
+                    "y": 4
+                },
+                {
+                    "x": 10,
+                    "y": 2
+                },
+                {
+                    "x": 9,
+                    "y": 1
+                },
+                {
+                    "x": 8,
+                    "y": 1
+                },
+                {
+                    "x": 6,
+                    "y": 3
+                },
+                {
+                    "x": 4,
+                    "y": 4
+                },
+                {
+                    "x": 4,
+                    "y": 6
+                },
+                {
+                    "x": 3,
+                    "y": 6
+                },
+                {
+                    "x": 3,
+                    "y": 4
+                },
+                {
+                    "x": 3,
+                    "y": 3
+                },
+                {
+                    "x": 8,
+                    "y": 5
+                },
+                {
+                    "x": 8,
+                    "y": 6
+                },
+                {
+                    "x": 9,
+                    "y": 7
+                },
+                {
+                    "x": 11,
+                    "y": 8
+                },
+                {
+                    "x": 12,
+                    "y": 8
+                },
+                {
+                    "x": 12,
+                    "y": 5
+                },
+                {
+                    "x": 11,
+                    "y": 7
+                },
+                {
+                    "x": 9,
+                    "y": 8
+                },
+                {
+                    "x": 9,
+                    "y": 6
+                },
+                {
+                    "x": 9,
+                    "y": 5
+                },
+                {
+                    "x": 10,
+                    "y": 5
+                },
+                {
+                    "x": 12,
+                    "y": 7
+                },
+                {
+                    "x": 10,
+                    "y": 4
+                },
+                {
+                    "x": 8,
+                    "y": 3
+                },
+                {
+                    "x": 7,
+                    "y": 6
+                },
+                {
+                    "x": 5,
+                    "y": 6
+                },
+                {
+                    "x": 10,
+                    "y": 7
+                }
+            ],
+            "startLocation": {
+                "x": 4,
+                "y": 7
             }
         }
     ]
