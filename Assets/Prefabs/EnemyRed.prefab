@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6843478886068227165}
   - component: {fileID: 8082533428979968673}
+  - component: {fileID: 1292336225614371740}
+  - component: {fileID: 1484322868083514775}
   m_Layer: 0
   m_Name: EnemyRed
   m_TagString: Untagged
@@ -84,3 +86,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1292336225614371740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5142288831132794622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b355f6c2ec4a104e971ee2d1e0fbd57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 8082533428979968673}
+  data:
+  - id: Up
+    sprites:
+    - {fileID: -1334639012, guid: ef02cc18c6181864da8ef772b9bf58e3, type: 3}
+    frameRate: 0
+  - id: Down
+    sprites:
+    - {fileID: -1334639012, guid: ef02cc18c6181864da8ef772b9bf58e3, type: 3}
+    frameRate: 0
+  - id: Left
+    sprites:
+    - {fileID: -1334639012, guid: ef02cc18c6181864da8ef772b9bf58e3, type: 3}
+    frameRate: 0
+  - id: Right
+    sprites:
+    - {fileID: -1334639012, guid: ef02cc18c6181864da8ef772b9bf58e3, type: 3}
+    frameRate: 0
+  updateByMono: 1
+--- !u!114 &1484322868083514775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5142288831132794622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8d8582812d17ea46a25ba82e0d0f7d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 1292336225614371740}
+  moveSpeed: 1
+  bodySize: {x: 1, y: 1}
+  killRange: 1
+  type: 1
+  movingDir: 0

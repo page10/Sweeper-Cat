@@ -170,6 +170,8 @@ MonoBehaviour:
   mapManager: {fileID: 726631286}
   mainCamera: {fileID: 1309076485}
   playerPrefab: {fileID: 8928520623829216131, guid: 3c23dc9f6b958b5478dbf6c099fa80be, type: 3}
+  enemyBlueGhostPrefab: {fileID: 97785714028091564, guid: 9a173faf002b289488304207b77949bd, type: 3}
+  enemyRedGhostPrefab: {fileID: 5142288831132794622, guid: 95654c86d6df12948b592928b66f3fd3, type: 3}
 --- !u!114 &726631286
 MonoBehaviour:
   m_ObjectHideFlags: 0

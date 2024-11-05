@@ -7,8 +7,11 @@ public class GameManager : MonoBehaviour
     public MapManager mapManager;
     public Camera mainCamera;
     [SerializeField] private GameObject playerPrefab;
+    [SerializeField] private GameObject enemyBlueGhostPrefab;
+    [SerializeField] private GameObject enemyRedGhostPrefab;
     private Character _character;
     private MoveDirection _currentMovingDirection = MoveDirection.None;
+    private List<Enemy> _enemies = new List<Enemy>();
     
     
     
@@ -19,6 +22,7 @@ public class GameManager : MonoBehaviour
         mapManager.GenerateMap(out Vector2Int playerStartPosition);
         // Place the player character on the map
         PlacePlayerCharacter(playerStartPosition);
+        CreateEnemies(2);
         // Center the camera on the map
         CenterCamera();
     }
@@ -38,6 +42,41 @@ public class GameManager : MonoBehaviour
         _character.transform.SetParent(transform);
     }
     
+    private void PlaceEnemyCharacter(Vector2Int position, EnemyType type) {
+        GameObject enemyPrefab = type == EnemyType.BlueGhost ? enemyBlueGhostPrefab : enemyRedGhostPrefab;
+        GameObject go = Instantiate(enemyPrefab, new Vector3(position.x, position.y, -1), Quaternion.identity);
+        Enemy e = go.GetComponent<Enemy>();
+        e.TryMove(MoveDirection.Down, 0);
+        List<MoveDirection> md = new List<MoveDirection> { MoveDirection.Up ,MoveDirection.Down,MoveDirection.Left, MoveDirection.Right};
+        e.movingDir = md[Random.Range(0, md.Count)];
+        e.transform.SetParent(transform);
+        _enemies.Add(e);
+    }
+    
+    private void CreateEnemies(int enemyCount)
+    {
+        //筛选出格子
+        List<Vector2Int> eg = mapManager.EmptyGrids();
+        if (_character)
+        {
+            Vector2Int cg = mapManager.PositionInGrid(_character.transform.position);
+            for (int i = -3; i <= 3; i++)
+            for (int j = -3; j <= 3; j++)
+            {
+                Vector2Int g = new Vector2Int(i + cg.x, j + cg.y);
+                eg.Remove(g);  //玩家周围3格内不刷怪
+            }
+        }
+        while (eg.Count > enemyCount) eg.RemoveAt(Random.Range(0, eg.Count));
+        //刷怪
+        foreach (Vector2Int g in eg) 
+        {
+            EnemyType type = (Random.value > 0.5f) ? EnemyType.BlueGhost : EnemyType.RedGhost;
+            PlaceEnemyCharacter(g, type);
+        }
+    }
+
+    
     // Update is called once per frame
     void Update()
     {
@@ -45,6 +84,26 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("You win!");
         }
+        
+        foreach (Enemy enemy in _enemies)
+        {
+            if (enemy.Dead) continue;
+            //尝试移动
+            if (!MoveCharacter(enemy, enemy.movingDir, Time.deltaTime))
+            {
+                //todo 如果敌人移动失败，就会运行ai，现在先随机换个方向
+                List<MoveDirection> md = new List<MoveDirection>
+                    { MoveDirection.Up, MoveDirection.Down, MoveDirection.Left, MoveDirection.Right };
+                md.Remove(enemy.movingDir);
+                enemy.movingDir = md[Random.Range(0, md.Count)];
+            }
+            //尝试杀死玩家
+            if (Mathf.Abs(Vector2.Distance(enemy.transform.position, _character.transform.position)) < enemy.killRange)
+            {
+                // todo kill
+            }
+        }
+
 
         HandleInput();
         MoveCharacter(_character, _currentMovingDirection, Time.deltaTime);

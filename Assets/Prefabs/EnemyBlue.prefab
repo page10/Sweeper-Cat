@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8823875981527764485}
   - component: {fileID: 1706292401847408711}
+  - component: {fileID: -2712813233158012062}
+  - component: {fileID: 6571636121246562163}
   m_Layer: 0
   m_Name: EnemyBlue
   m_TagString: Untagged
@@ -84,3 +86,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-2712813233158012062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97785714028091564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8d8582812d17ea46a25ba82e0d0f7d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 6571636121246562163}
+  moveSpeed: 1.5
+  bodySize: {x: 1, y: 1}
+  killRange: 1
+  type: 0
+  movingDir: 0
+--- !u!114 &6571636121246562163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97785714028091564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b355f6c2ec4a104e971ee2d1e0fbd57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 1706292401847408711}
+  data:
+  - id: Up
+    sprites:
+    - {fileID: -1992857096, guid: ef02cc18c6181864da8ef772b9bf58e3, type: 3}
+    frameRate: 0
+  - id: Down
+    sprites:
+    - {fileID: -1992857096, guid: ef02cc18c6181864da8ef772b9bf58e3, type: 3}
+    frameRate: 0
+  - id: Left
+    sprites:
+    - {fileID: -1992857096, guid: ef02cc18c6181864da8ef772b9bf58e3, type: 3}
+    frameRate: 0
+  - id: Right
+    sprites:
+    - {fileID: -1992857096, guid: ef02cc18c6181864da8ef772b9bf58e3, type: 3}
+    frameRate: 0
+  updateByMono: 1
