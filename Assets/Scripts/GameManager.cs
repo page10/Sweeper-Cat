@@ -128,6 +128,11 @@ public class GameManager : MonoBehaviour
         if (canMove)
         {
             mover.transform.position = dest;
+            // todo move out of map to another side
+            if (dest.x < 0) mover.transform.position = new Vector3(mapManager.width - 1, dest.y, dest.z);
+            if (dest.x >= mapManager.width) mover.transform.position = new Vector3(0, dest.y, dest.z);
+            if (dest.y < 0) mover.transform.position = new Vector3(dest.x, mapManager.height - 1, dest.z);
+            if (dest.y >= mapManager.height) mover.transform.position = new Vector3(dest.x, 0, dest.z);
             
             // pick up item
             if (mover == _character)

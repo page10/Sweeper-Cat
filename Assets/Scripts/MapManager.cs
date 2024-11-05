@@ -35,15 +35,45 @@ public class MapManager : MonoBehaviour
     public bool IsMoveValid(float x, float y) => IsMoveValid(PositionInGrid(x, y));
     
     public bool IsMoveValid(Vector2Int position) {
-        // Check if position is within bounds
-        if (position.x < 0 || position.x >= map.GetLength(0) || position.y < 0 || position.y >= map.GetLength(1)) {
-            return false;  // Out of bounds
+        // we don't need to check bounds, pacman move out and move in from another side
+        // if (position.x < 0 || position.x >= map.GetLength(0) || position.y < 0 || position.y >= map.GetLength(1)) {
+        //     return false;  // Out of bounds
+        // }
+        if (!IsInMap(position))
+        {
+            if (position.x < 0)
+            {
+                Tile currentTile = map[width - 1, position.y];
+                // Check if the tile is passable
+                return currentTile.CanPass;
+            }
+            else if (position.x >= width)
+            {
+                Tile currentTile = map[0, position.y];
+                // Check if the tile is passable
+                return currentTile.CanPass;
+            }
+            else if (position.y < 0)
+            {
+                Tile currentTile = map[position.x, height - 1];
+                // Check if the tile is passable
+                return currentTile.CanPass;
+            }
+            else
+            {
+                Tile currentTile = map[position.x, 0];
+                // Check if the tile is passable
+                return currentTile.CanPass;
+            }
+        }
+        else
+        {
+            Tile currentTile = map[position.x, position.y];
+            // Check if the tile is passable
+            return currentTile.CanPass;
         }
 
-        Tile currentTile = map[position.x, position.y];
-
-        // Check if the tile is passable
-        return currentTile.CanPass;
+        
     }
     
     public bool CheckEatDots(Vector2 characterPos, float radius = 0.1f)
