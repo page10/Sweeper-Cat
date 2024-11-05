@@ -24,6 +24,10 @@ public class Character : MonoBehaviour
             anim.SetAlpha(1 - p);
             if (_elapsed >= DeadCleanInSec) Destroy(gameObject);
         }
+        else
+        {
+            anim.DoUpdate(Time.deltaTime);
+        }
     }
 
     public Vector3 TryMove(MoveDirection wishDirection, float delta)

@@ -8,6 +8,8 @@ public class FrameAnim : MonoBehaviour
 {
     [SerializeField] private SpriteRenderer sprite;
     [SerializeField] private FrameAnimData[] data;
+
+    [SerializeField] private bool debugLog = false;
     
     public FrameAnimData Current { get; private set; }
 
@@ -36,6 +38,8 @@ public class FrameAnim : MonoBehaviour
     /// <returns>if it is looped</returns>
     public bool DoUpdate(float delta)
     {
+        if (debugLog)
+            Debug.Log("[" + Current.Valid+"]=>" + Current.id + "(" + Current.sprites.Length + ") frameRate="+ Current.frameRate);
         if (!Current.Valid || !sprite || !gameObject) return true;
 
         int inTick = Mathf.FloorToInt(_elapsed / Current.frameRate);

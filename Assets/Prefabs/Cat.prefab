@@ -144,6 +144,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: e010f5d155bd42648976593f6a68b877, type: 3}
     - {fileID: 21300000, guid: cca6d464c2da4ac4f9dd4ca475373e00, type: 3}
     frameRate: 0.15
+  debugLog: 0
   updateByMono: 1
 --- !u!114 &5909253510521232530
 MonoBehaviour:

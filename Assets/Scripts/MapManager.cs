@@ -145,7 +145,7 @@ public class MapManager : MonoBehaviour
             CollectableItem smallDot = collectableGo.GetComponent<CollectableItem>();
             smallDot.GridPos = collectablePos;
             smallDots.Add(smallDot);
-            Debug.Log("smallDot: " + smallDot.GridPos);
+//            Debug.Log("smallDot: " + smallDot.GridPos);
         }
         
         // set player start position
