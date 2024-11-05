@@ -67,7 +67,7 @@ public class MapEditor : MonoBehaviour
                         _start = null;
                     }
 
-                    // todo put the start location on the map
+
                     PutStartLocationAt(_catching.pos.transform.position);
                 }
             }
@@ -88,7 +88,7 @@ public class MapEditor : MonoBehaviour
         }
     }
 
-    private void CreateHoverItem(string key) // todo how to put the item on the map
+    private void CreateHoverItem(string key) 
     {
         CleanCatching();
 

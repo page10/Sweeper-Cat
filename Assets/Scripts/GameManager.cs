@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public Camera mainCamera;
     [SerializeField] private GameObject playerPrefab;
     private Character _character;
+    private MoveDirection _currentMovingDirection = MoveDirection.None;
     
     
     
@@ -44,10 +45,102 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("You win!");
         }
+
+        HandleInput();
+        MoveCharacter(_character, _currentMovingDirection, Time.deltaTime);
     }
 
-    // private bool MoveCharacter(Character mover)
-    // {
-    //     // todo
-    // }
+    private void HandleInput()
+    {
+        if (Input.GetKey(KeyCode.W)) {  // Move up
+            _currentMovingDirection = MoveDirection.Up;
+        } else if (Input.GetKey(KeyCode.S)) {  // Move down
+            _currentMovingDirection = MoveDirection.Down;
+        } else if (Input.GetKey(KeyCode.A)) {  // Move left
+            _currentMovingDirection = MoveDirection.Left;
+        } else if (Input.GetKey(KeyCode.D)) {  // Move right
+            _currentMovingDirection = MoveDirection.Right;
+        } 
+    }
+
+    private bool MoveCharacter(Character mover, MoveDirection dir, float delta)
+    {
+        // todo
+        if (!mover) return false;
+        if (dir == MoveDirection.None) return true;
+        
+        const float squeezeRate = 0.1f;
+        float checkOffsetX = squeezeRate * MapManager.TileSize.x * 0.5f;
+        float checkOffsetY = squeezeRate * MapManager.TileSize.y * 0.5f;
+        float bodyX = mover.bodySize.x * 0.5f;
+        float bodyY = mover.bodySize.y * 0.5f;
+        Vector3 dest = mover.TryMove(dir, delta);
+        
+        //根据方向获得具体的要检查的点，如果2个点都可过，则移动生效，这里的squeezeRate是一个挤过去的倍率，是为了手感
+        Vector2[] checkPoints = new Vector2[] { Vector2.zero ,Vector2.zero};
+        switch (dir)
+        {
+            case MoveDirection.Up:
+                checkPoints = new Vector2[]
+                {
+                    dest + Vector3.up * bodyY + Vector3.left * checkOffsetX,
+                    dest + Vector3.up * bodyY + Vector3.right * checkOffsetX
+                };
+                dest = new Vector3(mapManager.CenterOfPosition(dest).x, dest.y, dest.z);
+                break;
+            case MoveDirection.Down:
+                checkPoints = new Vector2[]
+                {
+                    dest + Vector3.down * bodyY + Vector3.left * checkOffsetX,
+                    dest + Vector3.down * bodyY + Vector3.right * checkOffsetX
+                };
+                dest = new Vector3(mapManager.CenterOfPosition(dest).x, dest.y, dest.z);
+                break;
+            case MoveDirection.Left:
+                checkPoints = new Vector2[]
+                {
+                    dest + Vector3.left * bodyX + Vector3.up * checkOffsetY,
+                    dest + Vector3.left * bodyX + Vector3.down * checkOffsetY
+                };
+                dest = new Vector3(dest.x, mapManager.CenterOfPosition(dest).y, dest.z);
+                break;
+            case MoveDirection.Right:
+                checkPoints = new Vector2[]
+                {
+                    dest + Vector3.right * bodyX + Vector3.up * checkOffsetY,
+                    dest + Vector3.right * bodyX + Vector3.down * checkOffsetY
+                };
+                dest = new Vector3(dest.x, mapManager.CenterOfPosition(dest).y, dest.z);
+                break;
+        }
+        Vector2Int targetGrid = mapManager.PositionInGrid(dest);
+        bool canMove = true;
+        
+        foreach (Vector2 point in checkPoints)
+        {
+            if (!mapManager.IsMoveValid(point))
+            {
+                canMove = false;
+                break;
+            }
+        }
+        
+        if (canMove)
+        {
+            mover.transform.position = dest;
+            
+            // pick up item
+            if (mover == _character)
+            {
+                mapManager.CheckEatDots(_character.transform.position);
+            }
+
+            return true;
+        }
+        return false;
+
+    }
+    
+
 }
+

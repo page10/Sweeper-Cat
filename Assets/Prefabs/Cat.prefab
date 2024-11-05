@@ -100,7 +100,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 4779173674627868696}
   data:
-  - id: roll
+  - id: Up
+    sprites:
+    - {fileID: 21300000, guid: 9a6de44be042fab43b2efeef712bbe74, type: 3}
+    - {fileID: 21300000, guid: b3c6a70cf6c2f5344bd5049855e72a72, type: 3}
+    - {fileID: 21300000, guid: 4a09cc25ab031264488bda7142f6ff06, type: 3}
+    - {fileID: 21300000, guid: 6c93ef791357a674eaf160810b177e58, type: 3}
+    - {fileID: 21300000, guid: 040473f41cf54404499f24090b97ff9c, type: 3}
+    - {fileID: 21300000, guid: fd9402fed1e19ac429dc078d80b24c7d, type: 3}
+    - {fileID: 21300000, guid: e010f5d155bd42648976593f6a68b877, type: 3}
+    - {fileID: 21300000, guid: cca6d464c2da4ac4f9dd4ca475373e00, type: 3}
+    frameRate: 0.15
+  - id: Down
+    sprites:
+    - {fileID: 21300000, guid: 9a6de44be042fab43b2efeef712bbe74, type: 3}
+    - {fileID: 21300000, guid: b3c6a70cf6c2f5344bd5049855e72a72, type: 3}
+    - {fileID: 21300000, guid: 4a09cc25ab031264488bda7142f6ff06, type: 3}
+    - {fileID: 21300000, guid: 6c93ef791357a674eaf160810b177e58, type: 3}
+    - {fileID: 21300000, guid: 040473f41cf54404499f24090b97ff9c, type: 3}
+    - {fileID: 21300000, guid: fd9402fed1e19ac429dc078d80b24c7d, type: 3}
+    - {fileID: 21300000, guid: e010f5d155bd42648976593f6a68b877, type: 3}
+    - {fileID: 21300000, guid: cca6d464c2da4ac4f9dd4ca475373e00, type: 3}
+    frameRate: 0.15
+  - id: Left
+    sprites:
+    - {fileID: 21300000, guid: 9a6de44be042fab43b2efeef712bbe74, type: 3}
+    - {fileID: 21300000, guid: b3c6a70cf6c2f5344bd5049855e72a72, type: 3}
+    - {fileID: 21300000, guid: 4a09cc25ab031264488bda7142f6ff06, type: 3}
+    - {fileID: 21300000, guid: 6c93ef791357a674eaf160810b177e58, type: 3}
+    - {fileID: 21300000, guid: 040473f41cf54404499f24090b97ff9c, type: 3}
+    - {fileID: 21300000, guid: fd9402fed1e19ac429dc078d80b24c7d, type: 3}
+    - {fileID: 21300000, guid: e010f5d155bd42648976593f6a68b877, type: 3}
+    - {fileID: 21300000, guid: cca6d464c2da4ac4f9dd4ca475373e00, type: 3}
+    frameRate: 0.15
+  - id: Right
     sprites:
     - {fileID: 21300000, guid: 9a6de44be042fab43b2efeef712bbe74, type: 3}
     - {fileID: 21300000, guid: b3c6a70cf6c2f5344bd5049855e72a72, type: 3}
@@ -124,3 +157,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e67b3f7bb2ac00640b9aa6e921398cc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 104986105105336028}
+  moveSpeed: 5
+  bodySize: {x: 1, y: 1}

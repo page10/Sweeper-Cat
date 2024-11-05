@@ -21,6 +21,45 @@ public class MapManager : MonoBehaviour
 
     private Tile[,] map;
     List<MapData> allMapData = new List<MapData>();
+    
+    public Vector2 CenterOfPosition(Vector2 pos) => CenterOfPosition(pos.x, pos.y);
+
+    public Vector2 CenterOfPosition(float posX, float posY) => new Vector2(
+        Mathf.RoundToInt(posX / TileSize.x) * TileSize.x, Mathf.RoundToInt(posY / TileSize.y) * TileSize.y);
+    public Vector2Int PositionInGrid(Vector2 pos) => PositionInGrid(pos.x, pos.y);
+
+    public Vector2Int PositionInGrid(float posX, float posY) =>
+        new Vector2Int(Mathf.RoundToInt(posX / TileSize.x), Mathf.RoundToInt(posY / TileSize.y));
+    
+    public bool IsMoveValid(Vector2 pos) => IsMoveValid(PositionInGrid(pos));
+    public bool IsMoveValid(float x, float y) => IsMoveValid(PositionInGrid(x, y));
+    
+    public bool IsMoveValid(Vector2Int position) {
+        // Check if position is within bounds
+        if (position.x < 0 || position.x >= map.GetLength(0) || position.y < 0 || position.y >= map.GetLength(1)) {
+            return false;  // Out of bounds
+        }
+
+        Tile currentTile = map[position.x, position.y];
+
+        // Check if the tile is passable
+        return currentTile.CanPass;
+    }
+    
+    public bool CheckEatDots(Vector2 characterPos, float radius = 0.1f)
+    {
+        foreach (var smallDot in smallDots)
+        {
+            if (Vector2.Distance(characterPos, smallDot.transform.position) < radius)
+            {
+                smallDots.Remove(smallDot);
+                Destroy(smallDot.gameObject);
+                return true;
+            }
+        }
+
+        return false;
+    }
 
     private void ReadMapFromJson(string filePath = "Assets/Scripts/Map/MapData.json")
     {
@@ -96,20 +135,7 @@ public class MapManager : MonoBehaviour
         return pos.x >= 0 && pos.x < width && pos.y >= 0 && pos.y < height;
     }
     
-    public bool CheckPickUpCollectable(Vector2 characterPos, float radius = 0.1f)
-    {
-        foreach (var smallDot in smallDots)
-        {
-            if (Vector2.Distance(characterPos, smallDot.transform.position) < radius)
-            {
-                smallDots.Remove(smallDot);
-                Destroy(smallDot.gameObject);
-                return true;
-            }
-        }
 
-        return false;
-    }
     
     public int GetRemainingCollectableCount()
     {
