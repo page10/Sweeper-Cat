@@ -348,7 +348,8 @@ public class MapEditor : MonoBehaviour
             mapSize = _mapSize,
             grids = new List<GridData>(),
             collectables = new List<Vector2Int>(),
-            startLocation = Vector2Int.zero  
+            startLocation = Vector2Int.zero,
+            enemyLocations = new List<Vector2Int>()
         };
 
         foreach (MapGrid grid in _grids)
