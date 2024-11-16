@@ -11,6 +11,7 @@ using UnityEngine.Serialization;
     public List<GridData> grids;
     [FormerlySerializedAs("pickups")] public List<Vector2Int> collectables;  // those dots in pac man
     public Vector2Int startLocation;
+    public List<Vector2Int> enemyLocations;
 }
 
 [Serializable]

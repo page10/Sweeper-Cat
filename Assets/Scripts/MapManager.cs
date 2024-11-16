@@ -115,7 +115,7 @@ public class MapManager : MonoBehaviour
         }
     }
     
-    public void GenerateMap(out Vector2Int playerStartPosition)
+    public void GenerateMap(out Vector2Int playerStartPosition, out List<Vector2Int> enemyStartPositions)
     {
         ReadMapFromJson();
         // random choose an existing map in allMapData 
@@ -151,9 +151,12 @@ public class MapManager : MonoBehaviour
         // set player start position
         playerStartPosition = mapData.startLocation;
         
+        // set enemy start positions
+        enemyStartPositions = mapData.enemyLocations;
+        
     }
 
-    private GameObject CreateTile(string type, Vector2Int pos)  // todo use TileType instead of string
+    private GameObject CreateTile(string type, Vector2Int pos)  // should use TileType instead of string, but I'm lazy to refactor
     {
         switch (type)
         {

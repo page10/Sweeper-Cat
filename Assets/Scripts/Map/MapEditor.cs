@@ -17,6 +17,7 @@ public class MapEditor : MonoBehaviour
 
     private List<MapGrid> _grids = new List<MapGrid>();
     private List<Collectables> _collectables = new List<Collectables>();
+    private List<EnemyOnEditor> _enemies = new List<EnemyOnEditor>();
     private StartLocation _start;
 
     private MapEditorCatchingItem _catching = null;
@@ -66,9 +67,12 @@ public class MapEditor : MonoBehaviour
                         Destroy(_start.gameObject);
                         _start = null;
                     }
-
-
                     PutStartLocationAt(_catching.pos.transform.position);
+                }
+                else if (_catching.GetComponent<EnemyOnEditor>())
+                {
+                    EnemyOnEditor e = _catching.GetComponent<EnemyOnEditor>();
+                    PutEnemyAt(_catching.pos.transform.position);
                 }
             }
         }
@@ -260,7 +264,17 @@ public class MapEditor : MonoBehaviour
             Debug.Log("Can't put start location on start location");
             return;
         }
-
+        
+        // cannot put start location on enemy
+        foreach (EnemyOnEditor enemy in _enemies)
+        {
+            if (enemy.GetComponent<MapPosition>().pos == new Vector2Int(x, y))
+            {
+                Debug.Log("Can't put start location on enemy");
+                return;
+            }
+        }
+        
         GameObject go = Instantiate(Resources.Load<GameObject>("Terrain/" + startLocationName));
         StartLocation sl = go.GetComponent<StartLocation>();
         MapPosition mp = go.GetComponent<MapPosition>();
@@ -270,6 +284,57 @@ public class MapEditor : MonoBehaviour
 
         sl.transform.SetParent(itemLayer);
         _start = sl;
+    }
+    
+    private void PutEnemyAt(Vector3 g, string enemyName = "EnemyPosition") =>
+        PutEnemyAt((int)g.x, (int)g.y, enemyName);
+    
+    private void PutEnemyAt(Vector2Int g, string enemyName = "EnemyPosition") =>
+        PutEnemyAt(g.x, g.y, enemyName);
+
+    private void PutEnemyAt(int x, int y, string enemyName = "EnemyPosition")
+    {
+        // if the position is a wall we can't put the enemy on the map
+        if (x < 0 || x >= _mapSize.x || y < 0 || y >= _mapSize.y) return;
+        foreach (MapGrid grid in _grids)
+        {
+            if (grid.grid.pos == new Vector2Int(x, y))
+            {
+                if (grid.gridName == "Wall")
+                {
+                    Debug.Log("Can't put Enemy location on wall");
+                    return;
+                }
+            }
+        }
+
+        // cannot put enemy on start location
+        if (_start && _start.grid.pos == new Vector2Int(x, y))
+        {
+            Debug.Log("Can't put enemy on start location");
+            return;
+        }
+        
+        // if the position already has a enemy we can't put another enemy on the map
+        foreach (EnemyOnEditor enemy in _enemies)
+        {
+            if (enemy.GetComponent<MapPosition>().pos == new Vector2Int(x, y))
+            {
+                Debug.Log("Can't put enemy on enemy");
+                return;
+            }
+        }
+
+        GameObject go = Instantiate(Resources.Load<GameObject>("Terrain/" + enemyName));
+        EnemyOnEditor sl = go.GetComponent<EnemyOnEditor>();
+        MapPosition mp = go.GetComponent<MapPosition>();
+
+        mp.pos = new Vector2Int(x, y);
+        mp.SynchronizeMapPos();
+
+        sl.transform.SetParent(itemLayer);
+        _enemies.Add(sl);
+        
     }
 
     /// <summary>
@@ -298,6 +363,11 @@ public class MapEditor : MonoBehaviour
         foreach (Collectables collectable in _collectables)
         {
             mapData.collectables.Add(collectable.grid.pos);
+        }
+        
+        foreach (EnemyOnEditor enemy in _enemies)
+        {
+            mapData.enemyLocations.Add(enemy.grid.pos);
         }
 
         mapData.startLocation = _start? _start.grid.pos : Vector2Int.zero;  

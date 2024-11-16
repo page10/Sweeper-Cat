@@ -779,7 +779,17 @@
             "startLocation": {
                 "x": 1,
                 "y": 4
-            }
+            },
+            "enemyLocations": [
+                {
+                    "x": 4,
+                    "y": 4
+                },
+                {
+                    "x": 5,
+                    "y": 4
+                }
+            ]
         },
         {
             "levelName": "level1",
@@ -1362,7 +1372,17 @@
             "startLocation": {
                 "x": 3,
                 "y": 3
-            }
+            },
+            "enemyLocations": [
+                {
+                    "x": 4,
+                    "y": 3
+                },
+                {
+                    "x": 4,
+                    "y": 5
+                }
+            ]
         },
         {
             "levelName": "Level3",
@@ -2557,7 +2577,17 @@
             "startLocation": {
                 "x": 4,
                 "y": 7
-            }
+            },
+            "enemyLocations": [
+                {
+                    "x": 4,
+                    "y": 5
+                },
+                {
+                    "x": 6,
+                    "y": 5
+                }
+            ]
         }
     ]
 }

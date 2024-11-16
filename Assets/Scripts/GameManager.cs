@@ -1,6 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using Random = UnityEngine.Random;
 
 public class GameManager : MonoBehaviour
 {
@@ -19,10 +22,10 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         // Generate the map
-        mapManager.GenerateMap(out Vector2Int playerStartPosition);
+        mapManager.GenerateMap(out Vector2Int playerStartPosition, out List<Vector2Int> enemyStartPositions);
         // Place the player character on the map
         PlacePlayerCharacter(playerStartPosition);
-        CreateEnemies(2);
+        CreateEnemies(enemyStartPositions);
         // Center the camera on the map
         CenterCamera();
     }
@@ -33,6 +36,8 @@ public class GameManager : MonoBehaviour
 
         // Set the camera's position to the center of the map
         mainCamera.transform.position = new Vector3(mapCenterX, mapCenterY, mainCamera.transform.position.z);
+        //set the camera's size to match the map size
+        mainCamera.orthographicSize = mapManager.height / 2f;
     }
     
     private void PlacePlayerCharacter(Vector2Int position) {
@@ -53,28 +58,33 @@ public class GameManager : MonoBehaviour
         _enemies.Add(e);
     }
     
-    private void CreateEnemies(int enemyCount)
-    {
-        //筛选出格子
-        List<Vector2Int> eg = mapManager.EmptyGrids();
-        if (_character)
-        {
-            Vector2Int cg = mapManager.PositionInGrid(_character.transform.position);
-            for (int i = -3; i <= 3; i++)
-            for (int j = -3; j <= 3; j++)
-            {
-                Vector2Int g = new Vector2Int(i + cg.x, j + cg.y);
-                eg.Remove(g);  //玩家周围3格内不刷怪
-            }
-        }
-        while (eg.Count > enemyCount) eg.RemoveAt(Random.Range(0, eg.Count));
-        //刷怪
-        foreach (Vector2Int g in eg) 
-        {
+    private void CreateEnemies(List<Vector2Int> positions) {
+        foreach (Vector2Int pos in positions) {
             EnemyType type = (Random.value > 0.5f) ? EnemyType.BlueGhost : EnemyType.RedGhost;
-            PlaceEnemyCharacter(g, type);
+            PlaceEnemyCharacter(pos, type);
         }
     }
+    // {
+    //     // changed Nov 15 2024: read this from mapdata
+    //     List<Vector2Int> eg = mapManager.EmptyGrids();
+    //     if (_character)
+    //     {
+    //         Vector2Int cg = mapManager.PositionInGrid(_character.transform.position);
+    //         for (int i = -3; i <= 3; i++)
+    //         for (int j = -3; j <= 3; j++)
+    //         {
+    //             Vector2Int g = new Vector2Int(i + cg.x, j + cg.y);
+    //             eg.Remove(g);  //玩家周围3格内不刷怪
+    //         }
+    //     }
+    //     while (eg.Count > enemyCount) eg.RemoveAt(Random.Range(0, eg.Count));
+    //     //刷怪
+    //     foreach (Vector2Int g in eg) 
+    //     {
+    //         EnemyType type = (Random.value > 0.5f) ? EnemyType.BlueGhost : EnemyType.RedGhost;
+    //         PlaceEnemyCharacter(g, type);
+    //     }
+    // }
 
     
     // Update is called once per frame
@@ -83,6 +93,7 @@ public class GameManager : MonoBehaviour
         if (mapManager.GetRemainingCollectableCount() <= 0)
         {
             Debug.Log("You win!");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
         
         foreach (Enemy enemy in _enemies)
@@ -101,6 +112,8 @@ public class GameManager : MonoBehaviour
             if (Mathf.Abs(Vector2.Distance(enemy.transform.position, _character.transform.position)) < enemy.killRange)
             {
                 // todo kill
+                Debug.Log("You lose!");
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }
 
@@ -111,6 +124,7 @@ public class GameManager : MonoBehaviour
 
     private void HandleInput()
     {
+        // todo 不要对墙刹车
         if (Input.GetKey(KeyCode.W)) {  // Move up
             _currentMovingDirection = MoveDirection.Up;
         } else if (Input.GetKey(KeyCode.S)) {  // Move down
@@ -121,10 +135,10 @@ public class GameManager : MonoBehaviour
             _currentMovingDirection = MoveDirection.Right;
         } 
     }
+    
 
     private bool MoveCharacter(Character mover, MoveDirection dir, float delta)
     {
-        // todo
         if (!mover) return false;
         if (dir == MoveDirection.None) return true;
         
@@ -187,7 +201,6 @@ public class GameManager : MonoBehaviour
         if (canMove)
         {
             mover.transform.position = dest;
-            // todo move out of map to another side
             if (dest.x < 0) mover.transform.position = new Vector3(mapManager.width - 1, dest.y, dest.z);
             if (dest.x >= mapManager.width) mover.transform.position = new Vector3(0, dest.y, dest.z);
             if (dest.y < 0) mover.transform.position = new Vector3(dest.x, mapManager.height - 1, dest.z);
