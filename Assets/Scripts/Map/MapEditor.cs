@@ -141,14 +141,16 @@ public class MapEditor : MonoBehaviour
     {
         foreach (MapGrid grid in _grids) Destroy(grid.gameObject);
         foreach (Collectables grid in _collectables) Destroy(grid.gameObject);
+        foreach (EnemyOnEditor enemy in _enemies) Destroy(enemy.gameObject);
         if (_start)
         {
             Destroy(_start.gameObject);
             _start = null;
         }
-
+        
         _grids.Clear();
         _collectables.Clear();
+        _enemies.Clear();
     }
 
     private void CreateGridAt(Vector2Int g, string gridName = "Floor") => CreateGridAt(g.x, g.y, gridName);
